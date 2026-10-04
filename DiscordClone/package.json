@@ -1,0 +1,19 @@
+{
+  "name": "discordclone",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "postcss main.css -o dist/main.css",
+    "watch": "postcss main.css -o dist/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "postcss": "^8.5.26",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.3.3"
+  }
+}
